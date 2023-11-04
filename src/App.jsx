@@ -1,11 +1,15 @@
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+
 function App() {
   return (
     <>
-      <div>
-        Hello Little Lemon
-       </div>
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
